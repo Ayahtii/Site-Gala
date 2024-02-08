@@ -75,7 +75,21 @@ a {
     color: #FFD700;
 }
 
-@media only screen and (max-width: 900px) {
+.dropdown-content a.titre_navbar {
+    color: #FFD700;
+}
+
+
+.centered_text{
+    font-size: 3vh
+}
+
+
+.link_yellow{
+    color: #FFD700
+}
+
+@media only screen and (max-width: 1200px) {
     .navbar ul {
         display: none; /* Masque la liste de navigation par défaut sur les écrans plus petits */
     }
@@ -247,6 +261,7 @@ main{
 
 
 
+  
 /*l_equipe*/
 
 
@@ -449,4 +464,40 @@ section a.button:hover {
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+}
+
+/*Info pratiques*/
+
+.bus-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.bus-table th, .bus-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.bus-table th,
+.bus-table td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+
+/*Inscriptions*/
+
+
+
+.content-wrapper {
+    max-width: 70%; /* Limite la largeur du texte */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 20px;
+    border-radius: 10px; /* Arrondi les coins du conteneur */
+  }
+
+
+.content-wrapper p{
+    text-align: center;
 }

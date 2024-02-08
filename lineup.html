@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <Title>Gala Eclyps 2023</Title>
+        <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Images/Logogala_sans_fond_sans_bulles.png" alt="Logo"> </a>
+                    <a class="titre_navbar">Gala Eclyps</a>
+                </div>
+
+                <button class="menu-toggle">&#9776; Menu</button>
+                <nav>
+                    <ul>
+                    <li><a class="titre_navbar" href="index.html">Accueil</a></li>
+                    <li><a class="titre_navbar" href="Gala_2023.html">Gala 2023</a></li>
+                    <li><a  class="titre_navbar"href="Tournoi_des_anciens.html">Tournoi des Anciens</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn titre_navbar">Partenariats</a>
+                        <div class="dropdown-content">
+                            <a href="partenariats.html" class="titre_navbar">Nos partenaires</a>
+                            <a href="devenir_partenaire.html" class="titre_navbar">Devenir Partenaire</a>
+                        </div>
+                    </li>
+                    <li><a class="titre_navbar" href="Galerie.html">Galerie</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn titre_navbar">Infos pratiques</a>
+                        <div class="dropdown-content">
+                            <a href="lieu.html" class="titre_navbar">Le lieu</a>
+                            <a href="navettes.html" class="titre_navbar">Navettes</a>
+                            <a href="programme.html" class="titre_navbar">Programme de la soirée</a>
+                            <a href="lineup.html" class="titre_navbar">Line up</a>
+                            <a href="bars.html" class="titre_navbar">Les bars</a>
+
+                        </div>
+                    </li>
+
+
+
+                    <li><a class="titre_navbar" href="L_equipe.html">L'équipe</a></li>
+                </ul>
+                </nav>
+                <div class="inscription">
+                    <a class="titre_navbar" href="Inscription.html">Inscription</a>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <h1>Line up</h1>
+
+        
+            <section>
+                <div>
+                    <a>Informations à venir</a>
+                </div>
+                
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="contact-info">
+                    <p>Suivez-nous : <a href="https://www.instagram.com/gala_eclyps/" class="titre_navbar" target="_blank">Instagram</a> | <a class="titre_navbar" href="https://www.facebook.com/galaeclyps" target="_blank">Facebook</a></p>
+                </div>
+                <p> Contact : <a class="link_yellow" href="mailto:emma.lavergne@etu.ec-lyon.fr">emma.lavergne@etu.ec-lyon.fr</a></p>
+                <div class="copyright">
+                    <p>Gala Eclyps Centrale Lyon - Tous droits réservés</p>
+                </div>
+            </div>
+        </footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var menuToggle = document.querySelector('.menu-toggle');
+        var navbar = document.querySelector('.navbar');
+
+        menuToggle.addEventListener('click', function() {
+            navbar.classList.toggle('active');
+        });
+    });
+</script>
+    </body>
+
+
+
+</html>
