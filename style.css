@@ -96,7 +96,7 @@ a {
     color: #FFD700
 }
 
-@media only screen and (max-width: 21cm) {
+@media only screen and (max-width: 22cm) {
     .navbar ul {
         display: none; /* Masque la liste de navigation par défaut sur les écrans plus petits */
     }
