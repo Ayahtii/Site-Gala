@@ -187,6 +187,26 @@ main{
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .presentation_gala {
+        flex-direction: column;
+    }
+    .presentation_gala img {
+        width: 100%; /* Définir la largeur de l'image à 100% */
+        height: auto; /* Assurer que la hauteur est automatiquement ajustée pour conserver les proportions */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .presentation_gala_2023 {
+        flex-direction: column-reverse;
+    }
+    .presentation_gala_2023 img {
+        width: 100%; /* Définir la largeur de l'image à 100% */
+        height: auto; /* Assurer que la hauteur est automatiquement ajustée pour conserver les proportions */
+    }
+}
+
 .presentation_gala img{
     width: 40%;
     height: 40%;
