@@ -179,7 +179,7 @@ main{
 
 /*accueil*/
 
-.presentation_gala{
+.presentation_gala {
     margin-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
@@ -187,30 +187,22 @@ main{
     align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+.presentation_gala img {
+    width: 40%;
+    height: 40%;
+    padding-left: 5%;
+}
+
+@media only screen and (max-width: 700px) {
     .presentation_gala {
         flex-direction: column;
     }
     .presentation_gala img {
-        width: 100%; /* Définir la largeur de l'image à 100% */
+        width: 80%; /* Définir la largeur de l'image à 100% */
         height: auto; /* Assurer que la hauteur est automatiquement ajustée pour conserver les proportions */
+        padding-left: 0; /* Réinitialiser le padding si nécessaire */
+        padding-top: 5%; /* Réinitialiser le padding si nécessaire */
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .presentation_gala_2023 {
-        flex-direction: column-reverse;
-    }
-    .presentation_gala_2023 img {
-        width: 100%; /* Définir la largeur de l'image à 100% */
-        height: auto; /* Assurer que la hauteur est automatiquement ajustée pour conserver les proportions */
-    }
-}
-
-.presentation_gala img{
-    width: 40%;
-    height: 40%;
-    padding-left: 5%;
 }
 
 
@@ -423,19 +415,36 @@ section a.button:hover {
 
 /* Devenir partenaire */
 
-.presentation_gala_2023{
+
+
+
+.presentation_gala_2023 {
     padding-left: 5%;
-    padding-top:7%;
+    padding-top: 7%;
     padding-right: 5%;
     display: flex;
     align-items: center;
 }
 
-.presentation_gala_2023 img{
+.presentation_gala_2023 img {
     width: 40%;
     height: 40%;
     padding-left: 5%;
 }
+
+@media only screen and (max-width: 800px) {
+    .presentation_gala_2023 {
+        flex-direction: column;
+        align-items: center; /* Ajustement pour le centrage vertical sur mobile */
+    }
+    .presentation_gala_2023 img {
+        width: 80%; /* Définir la largeur de l'image à 80% sur mobile */
+        height: auto; /* Assurer que la hauteur est automatiquement ajustée pour conserver les proportions */
+        padding-left: 0; /* Réinitialiser le padding si nécessaire */
+        padding-top: 5%; /* Ajouter un padding en haut pour plus d'espace */
+    }
+}
+
 
 .partenariat_info p{
     margin-bottom: 20%;
