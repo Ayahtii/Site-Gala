@@ -66,6 +66,7 @@ nav li {
 a {
     color: white; 
     text-decoration: none; 
+    text-align: justify;
 }
 
 
@@ -88,7 +89,8 @@ a {
 
 
 .centered_text{
-    font-size: 3vh
+    font-size: 3vh;
+    text-align : justify;
 }
 
 
@@ -536,4 +538,37 @@ section a.button:hover {
 
 .content-wrapper p{
     text-align: center;
+}
+
+/*Diner*/
+
+.menu-image {
+    width: 80%;
+    max-width: 1000px; /* facultatif : limite la largeur maximale de l'image */
+    height: auto; /* assure le respect des proportions */
+}
+
+
+/*Le lieu*/
+
+.gala-content {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.gala-text {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gala-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gala-menu-image {
+    width: 45%;
+    height: auto;
+    margin-top: 5%;
 }
